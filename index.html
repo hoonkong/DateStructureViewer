@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Data structure viewer</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			div {
+				float: left;
+
+			}
+			div p,
+			div#output p
+			{
+				margin-top: 20px;
+				margin-right: 10px;
+				width: 30px;
+				height: 30px;
+				border: solid 1px #000;
+				border-radius: 15px;
+				line-height: 2;
+				text-align: center;
+			}
+			div#content {
+				width: 100%;
+			}
+			div#output p {
+				float: left;
+			}
+			.clr {
+				clear: both;
+			}
+			#canvas {
+				border: 1px solid #000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content"></div>
+
+		<canvas width="1000" height="500" id="canvas"></canvas>
+
+		<div id="output"></div>
+		
+		<script type="text/javascript" src="js/TreeData.js"></script>
+		<script type="text/javascript" src="js/BTreeData.js"></script>
+		<script type="text/javascript" src="js/BSTreeData.js"></script>
+		<script type="text/javascript" src="js/BTreeCalc.js"></script>
+		<script type="text/javascript" src="js/LinkedListData.js"></script>
+		<script type="text/javascript" src="js/LinkedList.js"></script>
+		<script type="text/javascript" src="js/Tree.js"></script>
+		<script type="text/javascript" src="js/init.js"></script>
+	</body>
+</html>
